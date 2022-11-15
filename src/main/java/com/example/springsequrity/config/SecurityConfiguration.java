@@ -25,6 +25,10 @@ public class SecurityConfiguration {
                 .antMatchers("/", "/home", "/signUp").permitAll() //설정한 리소스는 인증 필요없음
                 .anyRequest().authenticated() //그 외 모든 리소스들은 인증필요
                 .and()
+                .formLogin()
+                .permitAll()
+                .loginPage("/login")
+                .and()
 
         return http.build();
     }
