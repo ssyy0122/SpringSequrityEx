@@ -1,4 +1,4 @@
-package com.example.springsequrity.persistence;
+package com.example.springsequrity.persistence.model;
 
 import lombok.Builder;
 import lombok.Getter;

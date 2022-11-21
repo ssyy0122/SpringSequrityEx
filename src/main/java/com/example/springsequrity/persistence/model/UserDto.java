@@ -1,10 +1,8 @@
 package com.example.springsequrity.persistence.model;
 
-import com.example.springsequrity.persistence.User;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.springframework.stereotype.Service;
 
 @Getter
 @Setter
